@@ -1,7 +1,7 @@
 # A test for using Funigma mechanism
 import funigma
 
-testMessage="test message"
+testMessage="Return a randomly selected element from range(start, stop, step)." 
 secretMessage=funigma.Encoder(testMessage)
 print("encrypted message: "+secretMessage)
 
